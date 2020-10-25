@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  color: white;
+}
+
+.cabecalho {
+  background-color: #2b7148;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+  padding: 1em 2em;
+  height: 5em;
+  font-family: "Sora", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho-solution {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 1120px;
+}
+.cabecalho-login,
+.cabecalho-deslogado {
+  display: flex;
+  flex-direction: row;
+}
+/* form {
+  display: flex;
+  flex-direction: row;
+  color: white;
+} */
+
+label {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1em;
+  align-items: center;
+}
+
+.cabecalho-login button,
+.cabecalho-deslogado {
+  background-color: #04375c;
+  color: #fff;
+  margin-left: 1em;
+  padding: 0.3em 1.5em;
+  font-weight: bold;
+  border-radius: 0.3em;
+  min-height: 2em;
+}
+
+body {
+  background-color: rgb(236, 235, 220);
+}
+.cabecalho-jogos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 32em;
+  background-color: rgb(138, 185, 157);
+}
+.corpo-jogos {
+  border-collapse: collapse;
+  font-size: 1em;
+}
+.corpo-jogos td {
+  background-color: white;
+  max-width: 25em;
+  font-size: 1em;
+  padding: 0.75em 0.5em;
+}
+.centro {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 2em;
+  font-family: "Sora", sans-serif;
+}
+.classificacaoTabela tbody {
+  background-color: white;
+}
+
+thead {
+  background-color: rgb(138, 185, 157);
+}
+.time-casa {
+  text-align: right;
+}
+
+tbody td,
+thead th {
+  text-align: right;
+  padding: 0.75em 0.5em;
+}
+.tabelaClassificacao {
+  font-size: 1em;
+  border-collapse: collapse;
+}
+.email {
+  border-radius: 0.4em;
+  margin-left: 0.4em;
+  border: none;
+  height: 2em;
+}
+#senha {
+  border-radius: 0.4em;
+  margin-left: 0.4em;
+  border: none;
+  height: 2em;
+}
+
+.bola {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  left: 20em;
+}
+.editorPlacar {
+  width: 2em;
+  height: 2em;
+}
+img.escudo {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.tabelaClassificacao tbody .brasileirao {
+  background-color: palevioletred;
+  font-weight: bold;
+}
