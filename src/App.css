@@ -90,6 +90,7 @@ body {
 
 thead {
   background-color: rgb(138, 185, 157);
+  cursor: pointer;
 }
 .time-casa {
   text-align: right;
@@ -133,6 +134,44 @@ img.escudo {
 }
 
 .tabelaClassificacao tbody .brasileirao {
-  background-color: palevioletred;
+  background-color: #4285f4;
   font-weight: bold;
+}
+
+.tabelaClassificacao tbody .desclassificados {
+  background-color: #ea4335;
+  font-weight: bold;
+}
+.legendado-classificado {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.legendado-classificado .square {
+  background-color: #4285f4;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+.legendado-desclassificado {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.legendado-desclassificado .square {
+  background-color: #ea4335;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.Rodape {
+  background-color: #2b7148;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Sora", sans-serif;
+  min-height: 4em;
+  align-items: center;
+  justify-content: space-evenly;
 }
