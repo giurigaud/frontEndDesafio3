@@ -146,6 +146,7 @@ img.escudo {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 0.8em;
 }
 .legendado-classificado .square {
   background-color: #4285f4;
@@ -153,10 +154,18 @@ img.escudo {
   height: 1em;
   margin-right: 0.5em;
 }
+.legenda {
+  margin-top: 1em;
+}
+.legenda-nome {
+  font-weight: bold;
+  font-size: 0.9em;
+}
 .legendado-desclassificado {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 0.8em;
 }
 .legendado-desclassificado .square {
   background-color: #ea4335;

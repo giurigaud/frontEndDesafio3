@@ -118,14 +118,14 @@ function Classificacao() {
         </tbody>
       </table>
       <div className="legenda">
-        <div>Legenda:</div>
+        <div className="legenda-nome">Legenda:</div>
         <div className="legendado-classificado">
           {" "}
-          <div className="square"></div> Classificados para o brasileirao{" "}
+          <div className="square"></div> Classificados para as Libertadores{" "}
         </div>
         <div className="legendado-desclassificado">
           {" "}
-          <div className="square"></div> Classificados para o brasileirao{" "}
+          <div className="square"></div> Rebaixados para série B{" "}
         </div>
       </div>
     </div>
